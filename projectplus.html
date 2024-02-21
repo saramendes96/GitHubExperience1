@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <style>
+
+body {
+background: #f9f7fe;
+}
+
+.weather-app {
+background: white;
+max-width: 600px;
+margin: 60px auto;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 30px 50px rgba (65, 50, 100, 0.08);
+}
+
+div {
+display: block;
+}
+
+.search-input {
+background-color: #f9f7fe;
+border: none;
+color: rgba(39, 33, 66, 0.4);
+font-size: 16px;
+padding: 20px;
+width: 75%;
+border-radius: 6px;
+}
+
+.search-button {
+margin-left: 5px;
+font-size: 16px;
+background-color: #885df1;
+color: white;
+border: none;
+padding: 20px;
+line-height: 1;
+border-radius: 5px;
+}
+
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+  display: block;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.current-city {
+font-size: 38px;
+font-weight: 900;
+margin: 0;
+}
+
+.current-details {
+color: rgba(39, 33, 66, 0.4);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.current-temperature {
+font-size: 48px;
+}
+</style>
+</head>
+<body>
+<div class="weather-app">
+<header>  
+<form>
+<input type="search" placeholder="Enter a city..." required class="search-input">
+<input type="submit" value="Search" class="search-button">
+</form>
+</header>
+<h1 class="current-city">
+    Paris
+</h1>
+<p class="current-details">
+   <span>
+   Saturday
+   15:32
+   , 
+   moderate rain <br/>
+   </span>
+   Humidity
+   <strong>
+   87%
+   </strong>
+   , Wind
+   <strong>
+   7.2 km/h
+   </strong>
+</p>
+<div class="current-weather">
+<div>
+<div class="current-temperature">
+<section>
+        ☀️14°C
+</section>
+<ul>
+<li>
+    Sun🌤️ <br/>
+    <strong>
+    14°C -
+    </strong>
+    18°C
+</li>
+<li>
+    Mon🌤️ <br/>
+    <strong>
+    14°C -
+    </strong>
+    18°C
+</li>
+<li>
+   Tue🌤️ <br/>
+   <strong>
+   14°C -
+   </strong>
+   18°C
+</li>
+<li>
+    Wed🌤️ <br/>
+    <strong>
+    14°C -
+    </strong>
+    18°C
+    </li>
+<li>
+   Thu🌤️ <br/>
+   <strong>
+   14°C -
+   </strong>
+   18°C
+   </li>
+</ul>
+</div>
+</div>
+<footer>
+ This project was coded by
+ <a href="https://www.shecodes.io/graduates/102197-sara-mendes" target="_blank">Sara Mendes</a>
+ and is on
+ <a href="#">GitHub</a>
+ and
+ <a href="#" target="_blank">hosted on Netlify</a>
+</footer>
+</body>
+</html>
